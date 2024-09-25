@@ -1,0 +1,22 @@
+{
+  "name": "solidjs-vite-tailwind-directions-app",
+  "version": "1.0.0",
+  "description": "SolidJS app using Vite and Tailwind CSS to get directions using Google Directions API",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.22",
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.7",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
